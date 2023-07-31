@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    max-width: 1400px;
+}
+
+section {
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    max-width: 100%;
+}
+
+header nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 30px;
+}
+
+header nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Marcellus SC', serif;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-family: 'Fondamento', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-family: 'Marcellus SC', serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.artigos {
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.artigos img {
+    height: 500px;
+    width: 900px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.linksdownload img {
+    height: 65px;
+    width: 190px;
+}
+
+#download nav li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    background-color: aliceblue;
+    color: black;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 20px;
+    margin-left: 420px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color:aliceblue;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:crimson;
+}
+
+footer {
+    color:aliceblue;
+    margin-left: 270px;
+    padding: 50px;
+}
